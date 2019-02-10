@@ -584,14 +584,14 @@ public void drawWalking() {
 
 public void drawConsole() {
   PFont mono;
-  mono = createFont("Lucida Sans Typewriter", 20);
+  mono = createFont("Courier", 20);
   textAlign(LEFT);
   
   fill(#D1F6FA);
   noStroke();
   rect(12, 340, 1257, 30); 
   
-  fill(160);
+  fill(140);
   int c = 0;
   for (int i = currentLine; i < consoleText.size(); i++) {
     String pr = "";
